@@ -1,6 +1,69 @@
 {% extends "base.html" %}
-{% block title %}Home{% endblock %}
+
+{% block title %}xwayland.com — Linux, Wayland & Systems{% endblock %}
+
 {% block content %}
-    <h1>Welcome to the Blog</h1>
-    <p>This is the home page.</p>
+
+{# ── Featured / Hero ─────────────────────────────────────────────────────── #}
+<section class="hero">
+  <div class="hero-thumb"
+       style="background-image: url('{{ featured.image }}'); background-size: cover; background-position: center;">
+    <span class="hero-tag">featured</span>
+  </div>
+  <div class="hero-content">
+    <div class="hero-meta">
+      {{ featured.date_display }} &nbsp;·&nbsp; {{ featured.read_time }} min read
+    </div>
+    <h1 class="hero-title">
+      <a href="/posts/{{ featured.slug }}">{{ featured.title }}</a>
+    </h1>
+    <p class="hero-excerpt">{{ featured.excerpt }}</p>
+    <div class="hero-tags">
+      {% for tag in featured.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <a class="read-link" href="/posts/{{ featured.slug }}">Read article</a>
+  </div>
+</section>
+
+{# ── Post grid ───────────────────────────────────────────────────────────── #}
+<div class="section-label">recent posts</div>
+
+<div class="posts-grid">
+  {% for post in posts %}
+  <article class="post-card">
+    <a href="/posts/{{ post.slug }}" class="post-thumb"
+       style="background-image: url('{{ post.image }}'); background-size: cover; background-position: center;"></a>
+    <div class="post-body">
+      <div class="post-tag">{{ post.primary_tag() }}</div>
+      <h2 class="post-title">
+        <a href="/posts/{{ post.slug }}">{{ post.title }}</a>
+      </h2>
+      <p class="post-excerpt">{{ post.excerpt }}</p>
+      <div class="post-foot">
+        <span class="post-date">{{ post.date_short }}</span>
+        <span class="post-readtime">{{ post.read_time }} min</span>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{# ── Pagination ──────────────────────────────────────────────────────────── #}
+<div class="pagination">
+  {% if page > 1 %}
+    <a class="page-btn" href="/?page={{ page - 1 }}">← prev</a>
+  {% endif %}
+
+  {% for p in 1..=total_pages %}
+    <a class="page-btn {% if p == page %}active{% endif %}"
+       href="/?page={{ p }}">{{ p }}</a>
+  {% endfor %}
+
+  {% if page < total_pages %}
+    <a class="page-btn" href="/?page={{ page + 1 }}">next →</a>
+  {% endif %}
+</div>
+
 {% endblock %}

@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-askama = "0.14.0"
-axum = "0.8.9"
-serde = { version = "1.0.228", features = ["derive"] }
-tokio = { version = "1.52.1", features = ["full"] }
-tower-http = { version = "0.6.8", features = ["fs"] }
+askama        = "0.14.0"
+axum          = "0.8.9"
+serde         = { version = "1.0.228", features = ["derive"] }
+tokio         = { version = "1.52.1", features = ["full"] }
+tower-http    = { version = "0.6.8",  features = ["fs"] }
+pulldown-cmark = "0.13.3"   # Markdown → HTML
+gray_matter   = "0.3.2"    # YAML frontmatter parsing
