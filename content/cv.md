@@ -6,9 +6,12 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 
 **Cloud Specialist** — *Jan 2025 – Present*
 
-- Appointed VP Engineering for Ubuntu, leading Desktop, Server, Foundations and Debcrafters teams.
-- Led initiatives including oxidizing Ubuntu, reimagining the release process, and development of upki.
-- Trusted advisor to CEO, CTO and senior leadership. Mentor to individual contributors and directors.
+- Designed, automated and maintained the organization's infraestructure, encompassing hardware, software, and both on-premise and cloud environments.
+- Streamlined development workflows by containerizing applications and automating the deployment of complete environments.
+- Implemented monitoring solutions for country-wide call traffic.
+- Developed SIP solutions, implementing header-based data passing to feed contextual information for enhanced processing.
+- Supported the development team deploying new software versions and troubleshooting operational issues.
+- Drove organizational efficiency by implementing security and operational best practices.
 
 
 ### Surgir - Santander Microfinanzas

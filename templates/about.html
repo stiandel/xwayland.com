@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}About — xwayland.com{% endblock %}
+
+{% block content %}
+
+<div class="about">
+
+  {# ── Header ───────────────────────────────────────────────────────────── #}
+  <header class="about-header">
+    <div class="about-kicker">about</div>
+    <h1 class="about-name">Stian<br>Delange</h1>
+    <p class="about-sub">
+      Systems engineer writing about Wayland, Rust, and the Linux desktop.
+    </p>
+  </header>
+
+  {# ── Now ─────────────────────────────────────────────────────────────── #}
+  <div class="about-now">
+    <div class="about-now-label">now</div>
+    <p>
+      Working on distributed systems by day. Building this blog in Rust with Axum.
+      Currently deep in Wayland compositor internals.
+    </p>
+  </div>
+
+  {# ── Two-col sections ─────────────────────────────────────────────────── #}
+  <div class="about-sections">
+    <div class="about-section">
+      <div class="about-section-title">background</div>
+      <p>
+        Running Linux as a primary OS since 2012. Started with Ubuntu, moved through
+        Arch, landed on NixOS. I care about how software actually works, not just
+        how to use it.
+      </p>
+    </div>
+    <div class="about-section">
+      <div class="about-section-title">what I write about</div>
+      <p>
+        Wayland and compositors. The Rust ecosystem. Window managers and tiling
+        workflows. Occasionally: performance, benchmarking, and the gap between
+        theory and practice.
+      </p>
+    </div>
+  </div>
+
+  {# ── Contact ──────────────────────────────────────────────────────────── #}
+  <div class="about-contact">
+    <a class="read-link" href="https://github.com/yourhandle">github</a>
+    <a class="read-link" href="mailto:you@xwayland.com">email</a>
+    <a class="read-link" href="/rss.xml">rss</a>
+  </div>
+
+</div>
+
+{% endblock %}
