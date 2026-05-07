@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}CV — xwayland.com{% endblock %}
+
+{% block content %}
+
+<div class="cv-page">
+  <header class="cv-page-header">
+    <div class="cv-kicker">curriculum vitae</div>
+    <h1 class="cv-name">Stian<br>Delange</h1>
+  </header>
+
+  <div class="cv-body post-content">
+    {{ content|safe }}
+  </div>
+</div>
+
+{% endblock %}
