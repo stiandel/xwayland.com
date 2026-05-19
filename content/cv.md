@@ -51,6 +51,7 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 
 ### Archlinux
 
+**Package Maintainer** — *2020 – 2022*
 **Package tester** — *2020 – 2022*
 
 - Validated packages submitted by developers to ensure they are fully functional and install correctly without breaking dependencies.
@@ -58,6 +59,7 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 - Documented and submitted detailed bug reports when packages failed to perform as expected.
 
 **Package Maintainer** — *2020 – 2022*
+**Package tester** — *2020 – 2022*
 
 - Managed package updates to ensure the latest upstream versions were implemented.
 - Provided technical support to address and resolve bugs encountered during installation or usage.
