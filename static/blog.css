@@ -292,7 +292,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ── Single post ───────────────────────────────────────────────────────────── */
-.post-full { max-width: 680px; margin: 0 auto; padding-bottom: 4rem; }
+.post-full { max-width: 800px; margin: 0 auto; padding-bottom: 4rem; }
 
 .post-header { margin-bottom: 2.5rem; }
 .post-header-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
@@ -525,7 +525,7 @@ a { color: inherit; text-decoration: none; }
 }
 /* ── CV page ───────────────────────────────────────────────────────────────── */
 .cv-page {
-  max-width: 680px;
+  max-width: 800px;
   margin: 0 auto;
   padding-bottom: 4rem;
 }
