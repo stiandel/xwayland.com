@@ -1,4 +1,5 @@
-Systems engineer with a focus on Linux, Wayland, distributed systems and open-source software. Interested in hard technical problems and building tools that last.
+
+I'm a Linux enthusiast, systems engineer, and occasional open source contributor, also a cloud native advocate at heart. I care more about why something breaks than just fixing it, which is probably why I ended up in infrastructure and cybersecurity. I've spent years across cloud platforms, incident response, and system administration, and somehow still get excited about a well designed architecture diagram. In my free time, I'm still writing code, because I enjoy having custom tools tailored specifically to me, or just because I want to know deep down how a protocol works, or because there's a problem at work that isn't solved yet and needs some kind of automation.
 
 ## Experience
 
@@ -6,24 +7,23 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 
 **Cloud Specialist** — *Jan 2025 – Present*
 
-- Designed, automated and maintained the organization's infraestructure, encompassing hardware, software, and both on-premise and cloud environments.
-- Streamlined development workflows by containerizing applications and automating the deployment of complete environments.
-- Implemented monitoring solutions for country-wide call traffic.
-- Developed SIP solutions, implementing header-based data passing to feed contextual information for enhanced processing.
-- Supported the development team deploying new software versions and troubleshooting operational issues.
-- Drove organizational efficiency by implementing security and operational best practices.
+- Designed and maintained multi-cloud infraestructure across AWS, Azure and OCI, plus on-premise environments.
+- Coordinated with outsource staff specialist and guided non-technical stakeholders to keep projects on track.
+- Used IaC to automate provisioning and ensure consistency across environments.
+- Provided technical guidance to new projects, translating requirements into clear action items for non-technical staff.
+- Led governance, change management and FinOps to control and optimize cloud spend.
+- Evaluated and implemented new technologies, interacting directly with technology partners.
 
 
 ### Surgir - Santander Microfinanzas
 
-**Infraestructure & Support Lead** — *2025 – 2025*
+**Infraestructure & Support Lead** — *2024 – 2025*
 
-- Designed, automated and maintained the organization's infraestructure, encompassing hardware, software, and both on-premise and cloud environments.
-- Streamlined development workflows by containerizing applications and automating the deployment of complete environments.
-- Implemented monitoring solutions for country-wide call traffic.
-- Developed SIP solutions, implementing header-based data passing to feed contextual information for enhanced processing.
-- Supported the development team deploying new software versions and troubleshooting operational issues.
-- Drove organizational efficiency by implementing security and operational best practices.
+- Lead a team of 8, setting priorities and overseeing infraestructure and support operations.
+- Owner KPI tracking, change approvals, and budget management for the team.
+- Led incident response to meet corporate uptime and performance targets.
+- Provided technical guidance to new projects, translating requirements into clear action items for non-technical staff.
+- Guided application teams on infraestructure requirements for deploying their apps.
 
 ### Business IT
 
@@ -51,7 +51,6 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 
 ### Archlinux
 
-**Package Maintainer** — *2020 – 2022*
 **Package tester** — *2020 – 2022*
 
 - Validated packages submitted by developers to ensure they are fully functional and install correctly without breaking dependencies.
@@ -59,7 +58,6 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 - Documented and submitted detailed bug reports when packages failed to perform as expected.
 
 **Package Maintainer** — *2020 – 2022*
-**Package tester** — *2020 – 2022*
 
 - Managed package updates to ensure the latest upstream versions were implemented.
 - Provided technical support to address and resolve bugs encountered during installation or usage.
@@ -89,6 +87,12 @@ Systems engineer with a focus on Linux, Wayland, distributed systems and open-so
 | 2023 | Certified in Cybersecurity (CC) | ISC2 |
 | 2020 | BSc Electronic Engineering | Universidad del Altiplano |
 
+
+## Research & Publications
+
+- **Intrusion Detection and Prevention System for Production Supervision in Small Businesses Based on Raspberry Pi and Snort** (ISBN: 978-1-7281-9378-6)
+- **Open VProxy: Low Cost Squid Proxy Based Teleworking Environment with OpenVPN Encrypted Tunnels Provide Confidentiality, Integrity and Availability** (ISBN: 978-1-72818368-8)
+- **VPNoT: End to End Encrypted Tunnel Based on OpenVPN and Raspberry Pi for IoT Security** (ISBN: 978-1-6654-1262-9)
 
 ## Languages
 - *English* - Full professional proficiency

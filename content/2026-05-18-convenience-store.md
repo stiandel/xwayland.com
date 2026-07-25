@@ -43,4 +43,3 @@ I hope when I travel to Japan, I'll confirm that.
 
 Its a very thought provoking book and the author critizes how is spected of women every day, highligting some aspects of society. and somehow it teachs you that you dont have to find acceptance. its an odd story that has suddenly twist following Keyko's reaction.
 
-
