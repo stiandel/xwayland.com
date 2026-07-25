@@ -41,6 +41,12 @@ jobs:
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
             "mkdir -p ${{ secrets.DEPLOY_PATH }}"
 
+      - name: Stop service
+        run: |
+          ssh -p ${{ secrets.SSH_PORT }} \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+            "sudo systemctl stop xwayland"
+
       - name: Copy binary
         run: |
           scp -P ${{ secrets.SSH_PORT }} \
