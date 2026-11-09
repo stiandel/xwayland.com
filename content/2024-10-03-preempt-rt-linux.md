@@ -4,7 +4,6 @@ date: "2025-05-01"
 excerpt: "A one or two sentence summary shown on the home page card and in the post header."
 tags: ["Wayland", "Linux"]
 read_time: 5
-image: "https://i.ytimg.com/vi/9PMqEmSJS-Y/maxresdefault.jpg"
 thumb_class: "t1"
 ---
 
